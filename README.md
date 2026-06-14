@@ -111,10 +111,10 @@ Create a `.env.local` file in the project root:
 ```env
 # Binance Futures Testnet API credentials
 BINANCE_API_KEY=your_testnet_api_key_here
-BINANCE_API_SECRET=your_testnet_api_secret_here
+BINANCE_SECRET_KEY=your_testnet_api_secret_here
 
 # Binance Testnet base URL (do not change)
-BINANCE_BASE_URL=https://testnet.binancefuture.com
+BINANCE_TESTNET_BASE_URL=https://testnet.binancefuture.com
 ```
 
 > ✅ `.env.local` is already in `.gitignore` — your keys will never be committed.
