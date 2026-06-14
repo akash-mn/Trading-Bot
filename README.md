@@ -4,9 +4,27 @@ A premium, full-stack crypto futures trading dashboard built with **Next.js 14**
 
 ---
 
-## 📸 Preview
+## ![alt text](image.png) Preview
 
-> Full-screen purple video background with layered frosted-glass cards overlaid — watchlist, stat cards, live price chart, order panel, and margin health gauge.
+### Order Panel — Market Buy Filled
+![Order Filled](screenshots/screenshot-1-order-filled.png)
+> Market BUY order placed and filled instantly. Order confirmation shows ID, status (FILLED), and quantity.
+
+### Positions Tab — Live PnL Tracking
+![alt text](image-1.png)
+> Open BTCUSDT LONG position with entry price, leverage (20x), ROI bar, and a Close Position button. Stat cards at the top update every 10s.
+
+### Dashboard Overview — Full Layout
+![alt text](image-3.png)
+> Full dashboard view with wallet balance ($4999.11), unrealized PnL, margin health gauge (0.1%), account breakdown, and the live BTC price chart.
+
+### Order Panel — Sell Side
+![alt text](image-2.png)
+> SELL order panel active with live USDT estimate, SELL MARKET button, and the BTC price chart showing recent volatility.
+
+### Order Book Tab
+![alt text](image-4.png)
+> Simulated bid/ask depth table with proportional size bars, spread display ($6.44), and live price chart alongside.
 
 ---
 
@@ -59,6 +77,7 @@ trading-bot/
 │       └── route.ts          # POST /api/place-order — submit order
 ├── public/
 │   └── (static assets)
+├── screenshots/              # Dashboard preview images
 ├── .env.local                # API keys (never commit this)
 ├── package.json
 ├── tailwind.config.ts
